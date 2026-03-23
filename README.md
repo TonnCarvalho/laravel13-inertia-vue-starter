@@ -1,13 +1,34 @@
 
+
 ### Install
-1. ```composer install```
-2. ```npm instal```
-3. Duplique o arquivo **.env.example** e renomei para **.env**
-4. Crie o banco de dados no seu SGBD.
-5. ```php artisan migrate```
-6. ```php artisan key:generate```
-7. ```php artisan serve```
-8. ```npm run dev```
+##### 1. Instale o composer
+```
+composer install
+```
+##### 2. Instale o npm
+```
+npm instal
+```
+##### 3. Ajuste o arquivo .ENV
+Duplique o arquivo **.env.example** e renomei para **.env**
+##### 4. Crie  o banco de dados
+Crie o banco de dados no seu SGBD.
+##### 5. Realize a migração do Laravel
+```
+php artisan migrate
+```
+##### 6. Gere uma nova chave
+```
+php artisan key:generate
+```
+##### 7. Inicie o servidor.
+```
+php artisan serve
+```
+##### 8. Inicie a aplicação no front-end
+```
+npm run dev
+```
 
 
 ### Pacotes
