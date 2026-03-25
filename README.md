@@ -10,7 +10,9 @@ composer install
 npm instal
 ```
 ##### 3. Ajuste o arquivo .ENV
-Duplique o arquivo **.env.example** e renomei para **.env**
+```
+cp .env.example .env
+```
 ##### 4. Crie  o banco de dados
 Crie o banco de dados no seu SGBD.
 ##### 5. Realize a migração do Laravel
